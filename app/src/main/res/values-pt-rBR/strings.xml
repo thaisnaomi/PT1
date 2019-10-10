@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">◦ PT1 ThaisNaomi-Seki</string>
+    <string name="Help">Ajuda</string>
+    <string name="Man">Homem</string>
+    <string name="Woman">Mulher</string>
+    <string name="User">Usuário</string>
+    <string name="Tel">Telefone</string>
+    <string name="PasswordRepete">Senha (repete)</string>
+    <string name="Password">Senha</string>
+    <string name="NewUser">Nova conta</string>
+    <string name="Email">E-mail</string>
+    <string name="AR">Atividade Registro</string>
+    <string name="AP">Atividade Principal</string>
+    <string name="txtAjuda">Digite seu nome de usuário e senha para entrar no aplicativo. Se você não tiver um, clique no botão de registro.</string>
+    <string name="txtRegistro">Digite o nome do usuário que você deseja, bem como as informações de contato. O telefone possui 9 caracteres diferentes, no mínimo.</string>
+    <string name="Enter">Entrar</string>
+    <string name="Phone">Telefone</string>
+    <string name="txtHelp">Digite seu nome de usuário e senha para entrar no aplicativo. Se você não tiver um, clique no botão de registro.</string>
+</resources>
