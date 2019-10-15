@@ -3,7 +3,6 @@
     <string name="app_name">◦ PT1 ThaisNaomi-Seki</string>
     <string name="Woman">Mujer</string>
     <string name="User">Usuario</string>
-    <string name="Tel">Telefono</string>
     <string name="PasswordRepete">Contraseña (de nuevo)</string>
     <string name="Password">Contraseña</string>
     <string name="NewUser">Nuevo usuario</string>
@@ -12,9 +11,10 @@
     <string name="Email">Correo</string>
     <string name="AR">Actividad Registro</string>
     <string name="AP">Actividad Principal</string>
-    <string name="txtAjuda">Ingrese su nombre de usuario y contraseña para ingresar a la aplicación. Si no tiene uno, haga clic en el botón de registro.</string>
     <string name="txtRegistro">Introdueix el nom d\'usuari que desitges, així com les teves dades de contacte. El telèfon ha de tenir 9 xifres com al mínimo.</string>
     <string name="Enter">Entra</string>
     <string name="Phone">Telefono</string>
     <string name="txtHelp">Ingrese su nombre de usuario y contraseña para ingresar a la aplicación. Si no tiene uno, haga clic en el botón de registro.</string>
+    <string name="PhoneHint">(+34)xxx.xx.xx.xx</string>
+    <string name="EmailHint">usuario@email.com</string>
 </resources>

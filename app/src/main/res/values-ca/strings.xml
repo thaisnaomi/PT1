@@ -8,13 +8,13 @@
     <string name="NewUser">Crea</string>
     <string name="Password">Contrasenya</string>
     <string name="PasswordRepete">Contrasenya (repeteix)</string>
-    <string name="Tel">Telèfon</string>
     <string name="User">Usuari</string>
     <string name="Woman">Dona</string>
     <string name="Man">Home</string>
-    <string name="txtAjuda">Introdueix el teu nom d\'usuari i password per entrar a l\'aplicació. En cas de no disposar-ne d\'un, fes clicl en el botó registra.</string>
     <string name="txtRegistro">Introdueix el nom d\'usuari que desitges, així com les teves dades de contacte. El telèfon ha de tenir 9 xifres com a mínim.</string>
     <string name="Enter">Entra</string>
     <string name="Phone">Telèfon</string>
     <string name="txtHelp">Introduïu el vostre nom d’usuari i contrasenya per entrar a l’aplicació. Si no en teniu, feu clic al botó de registre.</string>
+    <string name="PhoneHint">(+34)xxx.xx.xx.xx</string>
+    <string name="EmailHint">usuari@email.com</string>
 </resources>

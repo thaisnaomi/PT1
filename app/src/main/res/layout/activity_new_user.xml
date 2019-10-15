@@ -19,11 +19,13 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/edtTxtUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
-        android:inputType="textPassword"
+        android:hint="@string/User"
+        android:maxLength="50"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -35,12 +37,15 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/edtTxtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:inputType="textEmailAddress"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:hint="@string/EmailHint"
+        android:maxLength="50"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -51,12 +56,15 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/edtTxtPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:inputType="phone"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:maxLength="14"
+        android:hint="@string/PhoneHint"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -67,12 +75,15 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/edtTxtPasswd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:inputType="textPassword"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:hint="@string/Password"
+        android:maxLength="12"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -85,39 +96,48 @@
         android:layout_gravity="center"/>
 
     <EditText
+        android:id="@+id/edtTxtPasswdRpt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="8dp"
+        android:hint="@string/PasswordRepete"
         android:inputType="textPassword"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_gravity="center"/>
+        android:maxLength="12"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="44dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-        <RadioButton
-            android:layout_width="107dp"
-            android:layout_height="26dp"
-            android:text="@string/Man"
-            tools:layout_editor_absoluteX="140dp"
-            tools:layout_editor_absoluteY="191dp" />
 
-        <View
-            android:layout_width="90dp"
-            android:layout_height="60dp" />
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="107dp"
+                android:layout_height="26dp"
+                android:text="@string/Man"
+                tools:layout_editor_absoluteX="140dp"
+                tools:layout_editor_absoluteY="191dp"
+                android:onClick="onClickMale"/>
 
-        <RadioButton
-            android:layout_width="85dp"
-            android:layout_height="27dp"
-            android:text="@string/Woman"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="191dp" />
-    </LinearLayout>
+            <View
+                android:layout_width="125dp"
+                android:layout_height="60dp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="85dp"
+                android:layout_height="27dp"
+                android:text="@string/Woman"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="191dp"
+                android:onClick="onClickFemale"/>
+        </RadioGroup>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -139,12 +159,21 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/btnButtonCrea"
+            android:id="@+id/btnButtonNewAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="@string/NewUser" />
+            android:text="@string/NewUser"
+            android:onClick="onClickNewUser"/>
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 
 </LinearLayout>

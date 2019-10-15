@@ -5,8 +5,8 @@
     <string name="Phone">Phone</string>
     <string name="Password">Password</string>
     <string name="PasswordRepete">Password (repeat)</string>
-    <string name="Man">Man</string>
-    <string name="Woman">Woman</string>
+    <string name="Man">Male</string>
+    <string name="Woman">Female</string>
     <string name="txtHelp">Enter your username and password to enter the application. If you do not have one, click on the register button.</string>
     <string name="AP">Main Activity</string>
     <string name="AR">Activity Register</string>
@@ -14,4 +14,6 @@
     <string name="Help">Help</string>
     <string name="NewUser">New User</string>
     <string name="Enter">Enter</string>
+    <string name="PhoneHint">(+34)xxx.xx.xx.xx</string>
+    <string name="EmailHint">user@email.com</string>
 </resources>
